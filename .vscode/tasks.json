@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-d",
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/src/Zombie.java",
+                "${workspaceFolder}/src/ZombieDatabase.java",
+                "${workspaceFolder}/src/ZombieDatabaseTest.java"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
